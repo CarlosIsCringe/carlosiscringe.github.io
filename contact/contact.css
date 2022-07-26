@@ -1,0 +1,164 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+body {
+    background-image:linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)), url(background.png);
+    background-size: 100%;
+}
+
+ul {
+    float: right;
+    list-style-type: none;
+    margin-top: 25px;
+    margin-right: 20px;
+}
+
+ul li {
+    display: inline-block;
+}
+
+ul li a {
+    text-decoration: none;
+    color: #ffffff;
+    padding: 5px 20px;
+    border: 1px solid #004b87;
+    transition: 0.6s ease;
+    background-color: #004b87;
+    
+}
+
+ul li a:hover {
+    background-color: #e8aa05;
+    color: #004b87;
+    border: 1px solid #e8aa05;
+}
+
+.logo img{
+    float: left;
+    width: 300px;
+    height: auto;
+    margin-top: 10px;
+    margin-left: 20px;
+    font-family: sans-serif;
+}
+
+.main {
+    max-width: 1200px;
+    margin: auto;
+}
+
+.divider {
+    position: fixed;
+    top: 13%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    height: 5px;
+    width: 1300px;
+    background: #e8aa05;
+}
+
+.noimage img{
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-300%, -40%);
+    height: 200px;
+    width: 200px;
+}
+
+.contact1{
+    position: fixed;
+    top: 50%;
+    left: 89%;
+    transform: translate(-300%, -40%);
+    height: 200px;
+    width: 300px;
+    color: #004b87;
+    font-family: 'Times New Roman', Times, serif
+}
+
+.contact1 h2{
+    position: fixed;
+    top: 65%;
+    left: 50%;
+    transform: translate(-50%, -40%);
+    height: 200px;
+    width: 300px;
+}
+
+.divider2{
+    position: fixed;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%, -40%);
+
+    height: 5px;
+    width: 300px;
+    background: #e8aa05;
+}
+
+.placeholder1 {
+    position: fixed;
+    top: 50%;
+    left: 32.5%;
+    transform: translate(-50%, -40%);
+
+    height: 200px;
+    width: 320px;
+    background: #e6e6e6;
+}
+
+.noimage2 img{
+    position: fixed;
+    top: 50%;
+    left: 100%;
+    transform: translate(-300%, -40%);
+    height: 200px;
+    width: 200px;
+}
+
+.placeholder2 {
+    position: fixed;
+    top: 50%;
+    left: 82.5%;
+    transform: translate(-50%, -40%);
+
+    height: 200px;
+    width: 320px;
+    background: #e6e6e6;
+}
+
+.contact2 {
+    position: fixed;
+    top: 50%;
+    left: 139%;
+    transform: translate(-300%, -40%);
+    height: 200px;
+    width: 300px;
+    color: #004b87;
+}
+
+.divider3{
+    position: fixed;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%, -40%);
+
+    height: 5px;
+    width: 300px;
+    background: #e8aa05;
+}
+
+.contact2 h2{
+    position: fixed;
+    top: 65%;
+    left: 300%;
+    transform: translate(-300%, -40%);
+    height: 200px;
+    width: 300px;
+    color: #004b87;
+}
