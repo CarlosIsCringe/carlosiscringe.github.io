@@ -63,11 +63,11 @@ ul li a:hover {
 
 .entry1 {
     position: fixed;
-    top: 60%;
+    top: 40%;
     left: 30%;
     transform: translate(-50%, -50%);
 
-    height: 400px;
+    height: 150px;
     width: 400px;
     background: #e6e6e6;
     text-align: center;
@@ -78,14 +78,16 @@ ul li a:hover {
     height: 10px;
     width: 400px;
     background: #e8aa05;
-}
-
-.entry1 img{
-    height: 300px;
-    width: 300px;
 
     position: fixed;
-    top: 60%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.entry1button {
+    position: fixed;
+    top: 58%;
     left: 50%;
     transform: translate(-50%, -50%);
 }
